@@ -1,0 +1,12 @@
+.wrapper{
+    grid-area: plansToDo;
+}
+@media only screen and (max-width: 1000px) {
+    .wrapper{
+        grid-area: plansToDo;
+        display: flex;
+        width: 85%;
+        justify-content: center;
+    }
+
+}

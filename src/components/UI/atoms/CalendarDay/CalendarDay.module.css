@@ -1,0 +1,12 @@
+.dayName{
+
+}
+.Wrapper{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    grid-area: calendarDay;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+}

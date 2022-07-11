@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React, { Component }  from 'react';
 import './App.css';
+import {MainPage} from "./components/pages/MainPage";
+import useWindowSize from "./services/useWindowSize";
+import {Navbar} from "./components/UI/organisms/Navbar";
+import {YourProfileInfo} from "./components/UI/molecules/YourProfileInfo";
+import {PlansToDo} from "./components/UI/organisms/PlansToDo";
+import {Calendar} from "./components/UI/organisms/Calendar";
 
 function App() {
-  return (
+    const size = useWindowSize()
+
+
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {size.width>1000?
+            <MainPage/>:
+            (<>
+                <YourProfileInfo/>
+                <PlansToDo/>
+                <Calendar/>
+            </>)}
+
     </div>
   );
 }
