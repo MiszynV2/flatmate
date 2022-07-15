@@ -1,0 +1,27 @@
+.headerWrapper{
+    grid-area: profileHeader;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #faf8ee;
+}
+
+.homeWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileTextHome{
+    font-size:20px;
+}
+.profileTextFlatmate{
+    font-size: 30px;
+    font-weight: 650;
+    letter-spacing: 2px;
+}
+.faUserGear{
+    height: 30px;
+}
+.faHome{
+    height: 30px;
+}

@@ -1,0 +1,21 @@
+.imageWrapper{
+    border: 1px solid #d9d9d9;
+    grid-area: profileImage;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.profileImage{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border:solid 10px #F77F00;
+}
+.profileTitle{
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}

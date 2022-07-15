@@ -1,0 +1,46 @@
+.statsWrapper{
+    grid-area: profileStats;
+    display: flex;
+    border: 1px solid #d9d9d9;
+    flex-direction: column;
+}
+
+.userProfileFirstList{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+    list-style: none;
+}
+
+
+.userProfileSecondList{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+    list-style: none;
+}
+.userProfileThirdList{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+    list-style: none;
+}
+
+.stats{
+    text-align: center;
+    background-color: #faf8ee;
+}
+.userProfileList{
+    display:flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 30px;
+}

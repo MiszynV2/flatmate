@@ -1,18 +1,18 @@
 .wrapper{
     display: grid;
     grid-template-columns:repeat(7,130px);
-    margin:0 auto;
 
 }
 .wrapper:first-child{
     border-left: none;
     background-color: black;
 }
-.wrapper:only-child{
-    border-left: 1px solid #d9d9d9;
-    background-color: black;
-}
+
 .firstCalendarChild{
     border-left: none;
     background-color: black;
+}
+
+.taskWrapper{
+    display:flex;
 }

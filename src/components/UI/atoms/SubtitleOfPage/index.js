@@ -1,0 +1,1 @@
+export {SubtitleOfPage} from "./SubtitleOfPage"

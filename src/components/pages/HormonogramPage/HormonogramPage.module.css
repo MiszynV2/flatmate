@@ -1,0 +1,27 @@
+.wrapper{
+    display: grid;
+    grid-template-columns:300px calc(100% - 400px) ;
+    grid-template-rows: 240px 500px;
+    grid-template-areas:
+ "navbar plansToDo";
+    grid-gap: 100px;
+
+}
+
+@media only screen and (min-width: 800px){
+    .wrapper{
+        display: grid;
+        grid-template-columns:300px calc(100% - 400px) ;
+        grid-template-areas:
+        "navbar plansToDo"
+        "navbar calendar";
+        grid-gap: 100px;
+
+    }
+}
+.descriptionWrapper{
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    align-content: center;
+}

@@ -1,0 +1,1 @@
+export {DescriptionOfPage} from "./DescriptionOfPage"

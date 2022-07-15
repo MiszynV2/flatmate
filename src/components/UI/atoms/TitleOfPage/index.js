@@ -1,0 +1,1 @@
+export {TitleOfPage} from "./TitleOfPage"

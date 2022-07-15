@@ -3,11 +3,12 @@ import React, { Component }  from 'react';
 import {CalendarDay} from "../../atoms/CalendarDay";
 import {CalendarTask} from "../../atoms/CalendarTask";
 
-export const CalendarItem = ({first}) => {
+export const CalendarItem = ({day}) => {
+
     return (
     <div className={classes.taskDay}>
-        <CalendarDay/>
-        <CalendarTask first={first}/>
+        <CalendarDay day={day}/>
+        <CalendarTask/>
     </div>
     );
 }

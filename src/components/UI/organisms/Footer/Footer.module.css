@@ -1,0 +1,26 @@
+
+.wrapper{
+    display: grid;
+    height: 90px;
+    padding-left: 30px;
+}
+.footerLinksfirst {
+margin-top: 20px;
+display: flex;
+justify-content: space-evenly;
+}
+.footerLinkssecond{
+display: block;
+margin-bottom: 10px;
+}
+.footerLinksfirst:hover{
+margin-top: 20px;
+display: flex;
+justify-content: space-evenly;
+cursor: pointer;
+}
+.footerLinkssecond:hover{
+display: block;
+margin-bottom: 10px;
+cursor: pointer;
+}

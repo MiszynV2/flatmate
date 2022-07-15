@@ -1,0 +1,35 @@
+.listWrapper{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #F77F00;
+    margin-right: 10px;
+}
+.achivementsLight{
+    font-weight: 400;
+}
+.textWrapper{
+    display: flex;
+
+}
+.achivementsTitle{
+    font-size: 14px;
+}
+.achivementsPoints{
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.date{
+    font-size: 12px;
+    padding-left: 70px;
+}
+.leftSideWrapper{
+    display: flex;
+    align-items: center;
+}

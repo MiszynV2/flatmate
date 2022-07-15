@@ -3,4 +3,15 @@
 }
 h1,h2,h3{
   margin:0;
+  font-family: "Candara Light";
+}
+button{
+  list-style: none;
+  background-color: transparent;
+  border:none;
+  font-family: "Candara Light";
+}
+a{
+  text-decoration: none;
+  color: black;
 }

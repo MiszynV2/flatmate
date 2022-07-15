@@ -9,5 +9,4 @@
     text-align: center;
     display: flex;
     margin-left:30px;
-    margin-top: 50px; /* todo nie ustawia sie elementow marginami!!!! marginy sa do oddzielania elementow, zamiast tego zrob padding na your profile info */
 }

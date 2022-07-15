@@ -1,0 +1,25 @@
+.wrapper{
+    display: grid;
+    grid-template-columns:300px calc(100% - 400px) ;
+    grid-template-rows: 240px 500px;
+    grid-template-areas:
+ "navbar plansToDo";
+}
+.wrapper:first-child{
+    border: 1px solid #d9d9d9;
+}
+@media only screen and (min-width: 800px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 400px calc(100% - 400px);
+        grid-template-rows: 100px 370px 150px 288px;
+        grid-template-areas:
+        "profileHeader profileHeader"
+        "profileImage profileStats"
+        "profileImage profileAchievements"
+        "profileOptions profileAchievements";
+    }
+}
+.faHome{
+    padding-left: 20px;
+}

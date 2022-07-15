@@ -1,0 +1,18 @@
+.chipWrapper{
+    background: #FCBF49;
+    border-radius: 36px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+    justify-content: center;
+    text-align: center;
+}
+
+.chipText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color:black;
+}

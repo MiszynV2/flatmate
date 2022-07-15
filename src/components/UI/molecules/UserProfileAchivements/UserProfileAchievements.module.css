@@ -1,0 +1,22 @@
+.achievementsWrapper{
+    grid-area: profileAchievements;
+    border: 1px solid #d9d9d9;
+    justify-content: space-evenly;
+}
+.userProfileList{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.achievements{
+    text-align: center;
+    background-color: #faf8ee;
+}
+
+.title{
+    font-size: 30px;
+}
+.date{
+    padding-left: 20px;
+}

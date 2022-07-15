@@ -1,0 +1,21 @@
+.optionsWrapper{
+    grid-area: profileOptions;
+    border: 1px solid #d9d9d9;
+
+}
+
+.userProfileList{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.title{
+    font-size: 30px;
+}
+.stats{
+    text-align: center;
+    background-color: #faf8ee;
+}

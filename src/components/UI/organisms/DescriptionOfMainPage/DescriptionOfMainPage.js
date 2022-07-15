@@ -1,10 +1,10 @@
-import classes from './PlansToDo.module.css';
+import classes from './DescriptionOfMainPage.module.css';
 import {PlanNextWeekText} from "../../molecules/PlanNextWeekText";
 import React, { Component }  from 'react';
 
 
 
-export const PlansToDo = () => {
+export const DescriptionOfMainPage = () => {
     return (
         <div className={classes.wrapper}>
             <PlanNextWeekText/>
